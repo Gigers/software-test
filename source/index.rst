@@ -15,6 +15,8 @@ Por fim, é importante notar que realizar testes não é **perder tempo** e sim 
 * Objetivos deste repositório
 Este repositório tem como objetivo alocar os conteúdos e materiais utilizados durante as aulas de teste, para que a revisita ou até mesmo o acesso ao conteúdo seja mais fácil.
 
+As anotações aqui disponíveis são frutos de resumos de aulas e da interpretação do matérial do professor.
+
 
 .. toctree::
     :maxdepth: 7

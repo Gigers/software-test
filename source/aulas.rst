@@ -53,3 +53,22 @@ Além desta dica há algumas outras
 Aula 2
 ---------------------------------------
 
+Durante esta aula houve a continuação da apresentação dos conceitos básicos sobre testes unitários.
+
+Ao se realizar testes unitários, deve-se saber quais serão os parâmetros a serem testados, sendo esses as classes e cada um dos valores que este receberá e retornará.
+
+Para cada teste, é importante que haja pelo menos dois casos de teste (*Unit test case*), um positivo e um negativo. 
+
+* Testes parametrizados
+
+Os testes parametrizados permitem ao programador executar vários testes com os mesmos valores. Para realizar a programação de testes parametrizados é necessário se atentar aos seguintes requisitos:
+
+- A classe precisa estar anotada com **@RunWith(Parameterized.class)**;
+
+- A classe precisa ter um método estático anotado por **@Parameters**;
+
+- A classe precisa ter um construtor que recebe cada elemento do **array**;
+
+- A classe precisa ter os atributos para manter os valores a serem usados no teste;
+
+- Na chamada do método @Test deve-se fazer o uso dos atributos da classe parametrizada.
