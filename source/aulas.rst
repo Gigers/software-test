@@ -32,6 +32,24 @@ A cadeia de teste aos quais um programa pode ser submetido normalmente segue a i
         - Estabilidade;
         - Compreensão.
 
+Como citado, os testes unitários utilizam as menores unidades do projeto para fazer os testes, que como visto, em projetos orientados a objetos são as classes. Porém é necessário percebermos que nem todas as classes precisam ser testadas, por isso, ao iniciar a escrita dos testes unitários é importante saber quais serão as classes testadas, e além disso, saber o que testar.
+
+Uma dica que ajuda a entender **o que testar** é utilizar as condições de contorno, ou de limite, por exemplo::
+    Há um método para verificar se uma pessoa é menor de idade, não é necessário testar todas as possibilidades, teste apenas aquelas limites, que neste caso serão as idades 17, 18 e 19.
+
+    Perceba que o teste será realizado, com uma boa abrangência de entradas e saídas.
+
+Além desta dica há algumas outras
+
+.. TIP::
+    - Não realize teste de métodos triviais, **get** por exemplo;
+    - O **set** deverá ser testado apenas quando faz verificações nos dados;
+    - Teste apenas as condições necessários, como visto no exemplo anterior.
+
+.. NOTE::
+    Um bom teste é aquele que consegue identificar problemas ainda não identificados, e não necessáriamente o que não tem nenhum erro.
+
+
 Aula 2
 ---------------------------------------
 
