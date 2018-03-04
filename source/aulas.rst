@@ -72,3 +72,10 @@ Os testes parametrizados permitem ao programador executar vários testes com os 
 - A classe precisa ter os atributos para manter os valores a serem usados no teste;
 
 - Na chamada do método @Test deve-se fazer o uso dos atributos da classe parametrizada.
+
+Aula 3
+---------------------------------------
+
+Nesta aula o professor continuou o assunto de testes parametrizados. Porém hoje, nos programamos os testes para verificar o funcionamento.
+
+Os códigos feitos podem ser encontrados dentro do diretório **codigos_java/aulaTres** do repositório.
