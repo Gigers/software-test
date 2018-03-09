@@ -79,3 +79,25 @@ Aula 3
 Nesta aula o professor continuou o assunto de testes parametrizados. Porém hoje, nos programamos os testes para verificar o funcionamento.
 
 Os códigos feitos podem ser encontrados dentro do diretório **codigos_java/aulaTres** do repositório.
+
+Aula 4
+---------------------------------------
+
+Nesta aula o conceito de testes parametrizados retornou para que fosse possível a introdução do conceito de suite de testes.
+
+
+* Testes parametrizados
+
+Nesta aula foi demonstrado como as classes parametrizadas não são genéricas, ou seja, não podem ser usada em todos os casos, isso ocorre porque a parametrização dos testes fará que os **inputs** e **outputs** sejam criados pensando em um método, e não em vários, o que não permite replica.
+
+Este pode parecer um conceito simples, mas lembre-se de coloca-lo em prática!.
+
+Alguns colegas tiveram dúvidas sobre a atomicidade dos testes, então foi definido da seguinte forma:
+
+- **Cada classe de teste será feita apenas para um método**.
+
+* A suite de testes
+
+A suite de testes é um conjunto de testes que facilita a organização e execução dos testes. Isso pode ser complicado de enteder quando não se programa muitos testes, porém em grandes projetos, essa é uma prática normal e útil.
+
+Sua utilização é bastante simples. Os códigos de exemplo estão dentro do diretório **AulaCinco**.
