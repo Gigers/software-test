@@ -101,3 +101,19 @@ Alguns colegas tiveram dúvidas sobre a atomicidade dos testes, então foi defin
 A suite de testes é um conjunto de testes que facilita a organização e execução dos testes. Isso pode ser complicado de enteder quando não se programa muitos testes, porém em grandes projetos, essa é uma prática normal e útil.
 
 Sua utilização é bastante simples. Os códigos de exemplo estão dentro do diretório **AulaCinco**.
+
+
+Aula 5
+---------------------------------------
+
+Correção de exercícios
+
+
+6 -  Por que a frase a seguir está errada? 
+    “Uma classe parametrizada pode ser usada para otimizar qualquer conjunto de teste”
+
+        - Não, pois pode ser que os conjuntos de entradas e saídas não sejam adequados para testar todos os métodos, dessa forma é necessário que os testes parâmetrizados devem ser segmentados.
+
+7 - O que é uma Suite de testes ?
+
+    - É um conjunto de testes que pode ser agrupo por funções e resultados.
