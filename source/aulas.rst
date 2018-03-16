@@ -117,3 +117,15 @@ Correção de exercícios
 7 - O que é uma Suite de testes ?
 
     - É um conjunto de testes que pode ser agrupo por funções e resultados.
+
+
+Aula 6
+---------------------------------------
+
+Revisão de conceitos OO para melhor entendimento do *Java reflection*.
+
+
+Aula 7
+---------------------------------------
+
+- Correção da 3° lista de exercícios
