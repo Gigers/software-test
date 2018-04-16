@@ -1,0 +1,25 @@
+1 - Pois ele é um método que não apresenta retorno, o que torna ele inviavel para um teste automatizado.
+
+// Não sei se meu teste está correto!
+2 - **Código**
+
+3 - Isso ocorre por conta da visibilidade do método, no caso do isPar, sua visibilidade é default, ou seja, está disponível apenas para o pacote, e é exatamente este o problema, quando codificamos o BTest dentro do *package* **aula**, estamos assumindo que no momento da execução aquele método estará disonível no pacote aula do *source folder* **src**, o que não ocorre, fazendo com que o método não possa ser executado.
+
+E no caso do isImpar, funciona exatamente porque o método de teste foi criado no pacote onde este método está disponível.
+
+4 - Da mesma forma que o exercício anterior, o problema está na visibilidade do método, que neste caso é o protected, que assim como o defaul, aceita acesso apenas do pacote ou de herança, neste caso o método **menor** da classe B é protected, e seu teste está sendo criado no pacote **aula**, o que como explicado anteriormente, causará problemas na execução do teste, já que mesmo sendo codificado dentro do *source folder* **test** ele é executado no *source folder* **src**. Sendo assim, como o teste foi escrito no pacote aula, ele não estará disponível, o que não permite o teste.
+
+E no caso do **maior**, ele será executado pois não tem irá apresentar problemas com a visibilidade.
+
+5 - **Código**
+
+// Verificar como o pessoal fez este exercício
+6 - **Código**
+
+// Verificar como o pessoal fez este exercício 
+7 - **Código**
+
+8 - **Código**
+
+9 - Isso ocorre pois o teste feito após a exibição do do "Segundo" falha, e o programa não continua. O grande problema de se utilizar apenas uma classe com vários asserts é que se todos derem certo, o JUnit entenderá que apenas aquele teste teve sucesso, e quando ocorrem erros, ele apenas indica que houve falha no teste, e o usuário não sabe qual dos assertes falhou.
+

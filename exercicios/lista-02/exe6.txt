@@ -1,0 +1,10 @@
+Testes devem ser unitários, uma classe de teste para cada método!
+	- Mesmo em testes parâmetrizados;
+	
+	
+Lista 2
+
+Exercício 6 - Por que a frase a seguier está errada ?
+"Uma classe parametrizada pode ser usada para otimizar qualquer conjunto de teste"
+
+R: Esta frase está errada pois uma classe parâmetrizada não pode ser usada em todos os casos, isso porque os parâmetros que serão testados podem não corresponder ao que é necessário para realizar certos testes.
